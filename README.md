@@ -1,2 +1,3 @@
-# Josef-Strauss_Op271_Ohne-Sorgen_Heugel
-Piano reduction of Josef Strauss Op 271 Polka schnell „Ohne Sorgen“
+# Josef Strauss Op271 „Ohne Sorgen“
+
+This repository contains an MEI encoding of the Polka schnell *„Ohne Sorgen“* (Sans Soucis), Op. 271 by Josef Strauss for two-hands piano, following the [edition by Heugel, Paris, n.d. [1874],  Plate H. 5647](https://imslp.org/wiki/Special:ReverseLookup/380278). 
