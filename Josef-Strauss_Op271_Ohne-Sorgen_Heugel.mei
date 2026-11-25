@@ -48,7 +48,7 @@
             <application xml:id="augcyjn1" version="1.0">
                <name xml:id="nkya9rp2">Custom text-to-MEI converter (Python); checked with Verovio 6.4.1</name>
             </application>
-            <application xml:id="a5l9his1" enddate="2026-11-25T20:26:12" startdate="2026-11-25T20:08:26" version="1.6.3">
+            <application xml:id="a5l9his1" enddate="2026-11-25T21:10:28" startdate="2026-11-25T20:08:26" version="1.6.3">
                <name xml:id="n576o5l1">mei-friend</name>
                <p xml:id="pz51361">First edit by mei-friend 1.6.3.</p>
             </application>
@@ -5862,18 +5862,27 @@
                                  <note xml:id="nzgmbsc" oct="6" pname="c"/>
                                  <note xml:id="nqrkmlo2" oct="6" pname="e"/>
                                  <note xml:id="nomhdog1" oct="6" pname="g"/>
+                                 <verse xml:id="v0vzqml2" n="1">
+                                    <syl xml:id="s0sb694">Ah!</syl>
+                                 </verse>
                               </chord>
                               <chord xml:id="cqhpfby1" dur="8">
                                  <note xml:id="ned7w3r2" oct="5" pname="g"/>
                                  <note xml:id="ngwivqg1" oct="6" pname="c"/>
                                  <note xml:id="n7nyhdh" oct="6" pname="e"/>
                                  <note xml:id="n4642zw2" oct="6" pname="g"/>
+                                 <verse xml:id="v583eib" n="1">
+                                    <syl xml:id="sthwav81">ah!</syl>
+                                 </verse>
                               </chord>
                               <chord xml:id="cshzgja" dur="8">
                                  <note xml:id="n6xp1oq2" oct="5" pname="g"/>
                                  <note xml:id="nw9c2cr2" oct="6" pname="c"/>
                                  <note xml:id="nnu5g0d" oct="6" pname="e"/>
                                  <note xml:id="n54fqk4" oct="6" pname="g"/>
+                                 <verse xml:id="vtzlkfk1" n="1">
+                                    <syl xml:id="sugrbdg">ah!</syl>
+                                 </verse>
                               </chord>
                            </beam>
                         </layer>
@@ -5904,8 +5913,7 @@
                            </beam>
                         </layer>
                      </staff>
-                     <dynam xml:id="do6p9s7" startid="#n0uz3tf1" place="below" staff="1">ff</dynam>
-                     <dir xml:id="dm8p8al2" startid="#cir2otx2" place="above" staff="1">Ah!</dir>
+                     <dynam xml:id="do6p9s7" startid="#n0uz3tf1" ho="-0.5" place="between" staff="1 2" vo="1">ff</dynam>
                   </measure>
                   <measure xml:id="moxydvb1" n="143" facs="#zcir4za1">
                      <staff xml:id="sjt62r3" n="1">
@@ -5916,24 +5924,36 @@
                                  <note xml:id="nbhkgii2" oct="6" pname="c"/>
                                  <note xml:id="n9yu4or1" oct="6" pname="e"/>
                                  <note xml:id="nnehwit1" oct="6" pname="g"/>
+                                 <verse xml:id="vcmwa1w1" n="1">
+                                    <syl xml:id="suqcntt2">ah!</syl>
+                                 </verse>
                               </chord>
                               <chord xml:id="ctlf5yn1" dur="8">
                                  <note xml:id="nrcc7ou1" oct="5" pname="g"/>
                                  <note xml:id="nt60cad1" oct="6" pname="c"/>
                                  <note xml:id="nit3f4m1" oct="6" pname="e"/>
                                  <note xml:id="nw157tf" oct="6" pname="g"/>
+                                 <verse xml:id="vei39vd1" n="1">
+                                    <syl xml:id="sx5b0681">ah!</syl>
+                                 </verse>
                               </chord>
                               <chord xml:id="cy4fjzw2" dur="8">
                                  <note xml:id="niqksk61" oct="5" pname="g"/>
                                  <note xml:id="ndsjsni2" oct="6" pname="c"/>
                                  <note xml:id="next88r2" oct="6" pname="e"/>
                                  <note xml:id="nmgd17v1" oct="6" pname="g"/>
+                                 <verse xml:id="vlhjdct2" n="1">
+                                    <syl xml:id="s2tjnbq1">ah!</syl>
+                                 </verse>
                               </chord>
                               <chord xml:id="cvg1zna1" dur="8">
                                  <note xml:id="nko7c2n1" oct="5" pname="g"/>
                                  <note xml:id="nj62al1" oct="6" pname="c"/>
                                  <note xml:id="nttyibn1" oct="6" pname="e"/>
                                  <note xml:id="na5gdt21" oct="6" pname="g"/>
+                                 <verse xml:id="vclq48f" n="1">
+                                    <syl xml:id="s1mesz41">ah!</syl>
+                                 </verse>
                               </chord>
                            </beam>
                         </layer>
@@ -5973,6 +5993,9 @@
                               <note xml:id="nmwyi5a" oct="6" pname="c"/>
                               <note xml:id="nwzui0q1" oct="6" pname="e"/>
                               <note xml:id="n9cpob6" oct="6" pname="g"/>
+                              <verse xml:id="vhypgoe" n="1">
+                                 <syl xml:id="s4w1tg21">ah!</syl>
+                              </verse>
                            </chord>
                            <rest xml:id="rsgx07d" dur="8"/>
                            <rest xml:id="r9hg9f5" dur="4"/>
