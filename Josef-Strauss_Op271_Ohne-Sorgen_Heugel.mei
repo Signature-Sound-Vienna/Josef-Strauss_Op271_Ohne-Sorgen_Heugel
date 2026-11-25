@@ -48,7 +48,7 @@
             <application xml:id="augcyjn1" version="1.0">
                <name xml:id="nkya9rp2">Custom text-to-MEI converter (Python); checked with Verovio 6.4.1</name>
             </application>
-            <application xml:id="a5l9his1" enddate="2026-11-25T21:10:28" startdate="2026-11-25T20:08:26" version="1.6.3">
+            <application xml:id="a5l9his1" enddate="2026-11-25T21:21:02" startdate="2026-11-25T20:08:26" version="1.6.3">
                <name xml:id="n576o5l1">mei-friend</name>
                <p xml:id="pz51361">First edit by mei-friend 1.6.3.</p>
             </application>
@@ -72,7 +72,7 @@
       <facsimile xml:id="f0bojpi2">
          <surface xml:id="s4m6fet1" n="1" lrx="2255" lry="2802" ulx="0" uly="0">
             <graphic xml:id="gf61uev2" height="2803" target="img/Josef-Strauss_Op271_Ohne-Sorgen_page-2.png" width="2256"/>
-            <zone xml:id="zxjup3m1" lrx="1078" lry="1036" type="measure" ulx="485" uly="586"/>
+            <zone xml:id="zxjup3m1" lrx="1078" lry="1036" type="measure" ulx="407" uly="586"/>
             <zone xml:id="zar4k3a" lrx="1378" lry="1037" type="measure" ulx="1048" uly="600"/>
             <zone xml:id="zplhnj51" lrx="1674" lry="1039" type="measure" ulx="1342" uly="606"/>
             <zone xml:id="z03vjct1" lrx="1971" lry="1040" type="measure" ulx="1641" uly="612"/>
@@ -238,9 +238,21 @@
                <scoreDef xml:id="s26udiu1">
                   <keySig xml:id="kx2mus61" sig="0"/>
                   <meterSig xml:id="mesigin1" count="2" unit="4"/>
+                  <pgHead xml:id="pd2kmor2" func="first">
+                     <rend xml:id="rr7xusi1" fontsize="large" fontweight="bold" halign="center">
+                        <rend xml:id="rhmqqwv1" fontsize="xx-large">SANS SOUCIS</rend><lb xml:id="l9eqvsm1"/>
+                        <rend xml:id="r3pxny1">– OHNE SORGEN –</rend><lb xml:id="l0hz60i2"/>
+                        <rend xml:id="rli5bbh1" fontsize="small" fontweight="normal">POLKA</rend><lb xml:id="lsyp0o6"/>
+                        <rend xml:id="r6vopi41" fontsize="x-small" fontweight="normal">de</rend><lb xml:id="lgwh4ey1"/>
+                        <rend xml:id="rpykw02">JOSEPH STRAUSS</rend><lb xml:id="l22v8rn1"/>
+                        <rend xml:id="ri7n4m6" fontsize="x-small">Op. 271.</rend>
+                     </rend>
+                  </pgHead>
                   <staffGrp xml:id="s3zmjfi2" bar.thru="true">
                      <grpSym xml:id="gu3st921" symbol="brace"/>
-                     <label xml:id="l3ynids2">Polka</label>
+                     <label xml:id="l3ynids2">
+                        <rend xml:id="rs7i0bc1" fontsize="small" fontweight="bold">POLKA.</rend>
+                     </label>
                      <staffDef xml:id="sk7j34o2" n="1" lines="5">
                         <clef xml:id="cwylsrc" line="2" shape="G"/>
                      </staffDef>
@@ -267,7 +279,7 @@
                      </staff>
                      <staff xml:id="snay96a" n="2">
                         <layer xml:id="l50vc061" n="1">
-                           <chord xml:id="c081m9a1" dur="8">
+                           <chord xml:id="c081m9a1" dur="8" stem.dir="down">
                               <note xml:id="n9jyva2" oct="2" pname="g"/>
                               <note xml:id="nbrb0961" oct="2" pname="b"/>
                               <note xml:id="ndsr5vu1" oct="3" pname="d"/>
@@ -301,7 +313,7 @@
                      </staff>
                      <staff xml:id="skmf9gm2" n="2">
                         <layer xml:id="ltgafre" n="1">
-                           <chord xml:id="c4psmiw1" dur="8">
+                           <chord xml:id="c4psmiw1" dur="8" stem.dir="down">
                               <note xml:id="n64phxx2" oct="2" pname="g"/>
                               <note xml:id="nhbmwvr1" oct="3" pname="c">
                                  <accid xml:id="avqxoe71" accid="s"/>
@@ -335,7 +347,7 @@
                      </staff>
                      <staff xml:id="stlvvld1" n="2">
                         <layer xml:id="ls3r6v31" n="1">
-                           <chord xml:id="cjck9fh1" dur="8">
+                           <chord xml:id="cjck9fh1" dur="8" stem.dir="down">
                               <note xml:id="nb7x2w3" oct="2" pname="g"/>
                               <note xml:id="ndx1w0g" oct="3" pname="d"/>
                               <note xml:id="nmyumay1" oct="3" pname="f"/>
@@ -1786,7 +1798,7 @@
                            <rest xml:id="r0vmz831" dur="4"/>
                         </layer>
                      </staff>
-                     <dynam xml:id="d8vuayc" startid="#nrsil88" place="below" staff="1">p</dynam>
+                     <dynam xml:id="d8vuayc" startid="#nrsil88" place="between" staff="1 2">p</dynam>
                   </measure>
                   <measure xml:id="mu3anwe1" n="40" facs="#zqctb52">
                      <staff xml:id="sy5j85j1" n="1">
@@ -2378,7 +2390,9 @@
                   <meterSig xml:id="mnwse1q2" count="2" unit="4"/>
                   <staffGrp xml:id="s2fdm6u1" bar.thru="true">
                      <grpSym xml:id="gdyppag1" symbol="brace"/>
-                     <label xml:id="luuixd61">Trio</label>
+                     <label xml:id="luuixd61">
+                        <rend xml:id="rlm4kod" fontsize="small" fontweight="bold">TRIO.</rend>
+                     </label>
                      <staffDef xml:id="suaoc" n="1" lines="5">
                         <clef xml:id="cjt8iqk1" line="2" shape="G"/>
                      </staffDef>
@@ -3763,7 +3777,9 @@
                   <meterSig xml:id="mmj4r5v1" count="2" unit="4"/>
                   <staffGrp xml:id="s3xvw0a1" bar.thru="true">
                      <grpSym xml:id="grgbnmv1" symbol="brace"/>
-                     <label xml:id="lkanbvu2">Finale</label>
+                     <label xml:id="lkanbvu2">
+                        <rend xml:id="rtpdsrt2" fontsize="small" fontweight="bold">FINALE.</rend>
+                     </label>
                      <staffDef xml:id="snmkltw2" n="1" lines="5">
                         <clef xml:id="cyoyxdc" line="2" shape="G"/>
                      </staffDef>
@@ -3790,7 +3806,7 @@
                      </staff>
                      <staff xml:id="sptos501" n="2">
                         <layer xml:id="lia4sr7" n="1">
-                           <chord xml:id="ciev19t2" dur="8">
+                           <chord xml:id="ciev19t2" dur="8" stem.dir="down">
                               <note xml:id="nfd9vke" oct="2" pname="g"/>
                               <note xml:id="nt2biyf1" oct="2" pname="b"/>
                               <note xml:id="nt1lpx81" oct="3" pname="d"/>
@@ -3823,7 +3839,7 @@
                      </staff>
                      <staff xml:id="s91rbr41" n="2">
                         <layer xml:id="ldkxfo01" n="1">
-                           <chord xml:id="cdl9wgi2" dur="8">
+                           <chord xml:id="cdl9wgi2" dur="8" stem.dir="down">
                               <note xml:id="nd2svg5" oct="2" pname="g"/>
                               <note xml:id="nmro7031" oct="3" pname="c">
                                  <accid xml:id="aqrtbzm2" accid="s"/>
@@ -3857,7 +3873,7 @@
                      </staff>
                      <staff xml:id="skq6q6n2" n="2">
                         <layer xml:id="l9ebaa4" n="1">
-                           <chord xml:id="cr0x6mt1" dur="8">
+                           <chord xml:id="cr0x6mt1" dur="8" stem.dir="down">
                               <note xml:id="nqi2zpv1" oct="2" pname="g"/>
                               <note xml:id="nv56fkj1" oct="3" pname="d"/>
                               <note xml:id="nghmlvc" oct="3" pname="f"/>
